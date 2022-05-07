@@ -11,14 +11,15 @@
     background-color: var(--bg-color-1);
 }
 .sidebar-items {
-    color: var(--primary-color);
     padding: 8px 20px 8px 7px;
     cursor: pointer;
+    color: var(--primary-color);
 }
+
 
 .sidebar-items:hover {
     background-color: var(--primary-color);
-    color: var(--text-color-1);
     border-left: 4px solid var(--secondary-color);
     border-radius: 2px;
+    color: var(--text-color-1);
 }
