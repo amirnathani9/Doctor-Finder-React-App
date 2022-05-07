@@ -8,7 +8,7 @@ export  function Sidebar() {
         <li ><Link className = "sidebar-items" to="/my-appointment">My Appointment</Link></li>
     </ul>
     <ul>
-    <button class="btn primary-outline-btn">Logout</button>
+    <button className="btn primary-outline-btn">Logout</button>
     </ul>
     </div>)
 };
