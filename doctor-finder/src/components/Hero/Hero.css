@@ -1,5 +1,5 @@
 .main-image-container {
-    background: linear-gradient(var(--primary-color-transparent), rgba(2, 129, 149, 0.8)), url("");
+    background: linear-gradient(var(--primary-color-transparent), rgba(2, 129, 149, 0.8));
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 100vw;
