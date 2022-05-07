@@ -1,3 +1,4 @@
+import "./Hero.css"
 export function Hero() {
     return (<>
         <section className="main-image-container section-center flex items-center justify-center flex-col border-radius-2 my-8">
