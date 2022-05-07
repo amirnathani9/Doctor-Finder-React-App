@@ -1,0 +1,25 @@
+.sidebar{
+    position: sticky;
+    min-width: 40vh;
+    line-height: 3rem;
+    top:9vh;
+    height: 90vh;
+    /* overflow-x: hidden; */
+    /* overflow-y: scroll; */
+    /* scroll-behavior: smooth; */
+    padding-bottom: 6rem;
+    background-color: var(--bg-color-3);
+}
+.sidebar-items {
+    padding: 8px 20px 8px 7px;
+    cursor: pointer;
+    color: var(--primary-color);
+}
+
+
+.sidebar-items:hover {
+    background-color: var(--primary-color);
+    border-left: 4px solid var(--secondary-color);
+    border-radius: 2px;
+    color: var(--text-color-1);
+}

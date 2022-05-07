@@ -1,0 +1,53 @@
+.doctor-listing-section {
+  width: 82vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.dropbtn {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 0.75rem;
+  font-size: 0.75rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  /* background-color: #f9f9f9; */
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content button {
+  min-width: 160px;
+  color: black;
+  padding: 0.5rem 0.75rem;
+  text-decoration: none;
+  display: block;
+  
+}
+
+.dropdown-content button:hover {
+  background-color: var(--primary-color);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: var(--secondary-color);
+  color: - var(--text-color-1);
+}

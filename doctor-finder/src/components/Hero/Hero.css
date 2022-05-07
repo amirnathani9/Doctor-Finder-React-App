@@ -1,0 +1,41 @@
+.main-image-container {
+    background: linear-gradient(var(--primary-color-transparent), rgba(2, 129, 149, 0.8));
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100vw;
+    height: 82vh;
+}
+
+.main-image-container h1 {
+    font-family: 'Brygada 1918', serif;
+    font-size: 3.5rem;
+    color: var(--text-color-1);
+}
+
+.main-image-container p {
+    color: var(--text-color-1);
+}
+
+.primary-outline-hero-btn {
+    border: 2px solid var(--text-color-1);
+    color: var(--text-color-1);
+    transition: all ease-in-out 300ms;
+    background-color: transparent;
+}
+
+.primary-outline-hero-btn:hover {
+    background-color: transparent;
+    transform: translateY(-2px);
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.2); /*this rgba variant is used only here */
+}
+
+/* Media Query */
+@media only screen and (max-width: 600px) {
+    .main-image-container {
+        border-radius: 0;
+    }
+
+    .main-image-container h1 {
+        font-size: 3rem;
+    }
+}
