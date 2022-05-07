@@ -20,3 +20,9 @@
     --transparent-color-2: rgba(0, 0, 0, 0.5);
     --primary-color-transparent: rgba(2, 129, 149, 0.1);
 }
+
+.section-heading {
+    border-bottom: 0.25rem solid var(--primary-color);
+    color: var(--primary-color);
+    font-family: Brygada\ 1918,serif;
+}
