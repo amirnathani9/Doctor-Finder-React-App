@@ -15,6 +15,6 @@ export function Navbar() {
                 </ul>
             </div>
         </nav>
-    
+        
     </>)
 };
